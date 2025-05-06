@@ -25,3 +25,17 @@ The research paper discusses SELF-DISCOVER, a framework for Large Language Model
 **Conclusion:**
 
 SELF-DISCOVER is a promising framework for improving the performance of LLMs on challenging reasoning tasks. Its self-discovery process allows LLMs to learn task-specific reasoning structures, leading to improved performance and efficient computation.
+
+---
+
+SELF-DISCOVER guides LLMs to self-discover and compose atomic reasoning modules into a reasoning structure to solve challenging tasks.
+![image](https://github.com/user-attachments/assets/7e241b0f-ec2b-4d41-aa26-f3b386bd9750)
+
+Given a generative LM, task, and seed reasoning module descriptions, we guide LMs to generate a reasoning structure in key-value format to solve the task. Finally, models can follow the self-discovered structures to solve the every instance from the task by filling in the values in JSON step-by-step.
+![image](https://github.com/user-attachments/assets/8e97b299-7a2a-443b-bbed-546baa7b7a29)
+
+## Experimental setup
+We use LMs to compose a coherent reasoning structure by selecting relevant modules, adapting to task-specific descriptions, and implement a reasoning structure in JSON.
+![image](https://github.com/user-attachments/assets/53c3ff4c-63b8-4b45-b7d8-5e36b9fc1f7a)
+
+
