@@ -1,1 +1,1 @@
-# Implementation of llm-twin-copilot
+#Self-discovery-agent
